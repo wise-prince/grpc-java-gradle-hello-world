@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/gradle'
+  args: ['build']
+artifacts: 
+  objects:
+    location: 'gs://seri-artifacts'
+    paths: ['build/libs/*.jar']
