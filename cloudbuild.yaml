@@ -3,5 +3,5 @@ steps:
   args: ['build']
 artifacts: 
   objects:
-    location: 'gs://seri-artifacts'
+    location: 'gs://cloudbuildjars'
     paths: ['build/libs/*.jar']
